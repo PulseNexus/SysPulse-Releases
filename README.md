@@ -1,9 +1,13 @@
+
+<div align="center">
+
 # SysPulse
 
-**Your system. Every detail.**
+### Your system. Every detail.
 
-*Developed by Pulse.*
+A modern Windows application for hardware monitoring, system diagnostics, performance tracking, and incident analysis.
 
+Developed by **Pulse**.
 
 [![Download for Windows](https://img.shields.io/badge/Download_for_Windows-238636?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/PulseNexus/SysPulse-Releases/releases/download/v1.0.0-beta.4/SysPulse-Setup-1.0.0-beta.4.exe)
 
@@ -16,92 +20,171 @@
 
 [All Releases](https://github.com/PulseNexus/SysPulse-Releases/releases) · [Report a Bug](https://github.com/PulseNexus/SysPulse-Releases/issues) · [Sensor Installation Guide](ADVANCED-SENSORS.md)
 
+</div>
 
 ---
 
 ## About SysPulse
 
-SysPulse is a free, modern Windows system monitoring and management application designed to give you a clear understanding of your computer's hardware, performance and health.
+**SysPulse** brings your computer's hardware, performance, and system health into one clean interface.
+
+Monitor your components in real time, explore historical performance, investigate system problems, and manage essential Windows functions without jumping between multiple applications.
+
+Designed to offer detailed information without unnecessary complexity.
 
 ## Features
 
-- Real-time CPU, GPU, memory, storage and network monitoring.
-- Easy and Advanced interface modes.
-- Fully customizable monitoring dashboards.
+### Real-Time Hardware Monitoring
+
+- CPU utilization, frequency, temperature, and available power readings.
+- GPU utilization, temperature, memory, and available sensor readings.
+- RAM and swap usage.
+- Storage performance and health information.
+- Network traffic and activity.
+- Hardware discovery and sensor availability information.
+
+Advanced hardware measurements depend on supported components and optional sensor integrations.
+
+### Easy & Advanced Modes
+
+**Easy Mode** provides a simplified overview of your PC.
+
+**Advanced Mode** provides additional metrics, management controls, and detailed system information.
+
+### Customizable Dashboards
+
+- Personalized dashboard layouts.
+- Independent layouts for Easy and Advanced modes.
+- Live hardware widgets.
+- Saved dashboard preferences.
+
+### Historical Monitoring
+
+- Record system performance over time.
+- Examine historical charts and measurements.
+- Select metrics and time ranges.
+- Export monitoring data.
+- Configure history retention.
+
+### Incident Recorder — New in Beta 4
+
+SysPulse includes a local diagnostic recorder that helps explain what happened before and after significant system events.
+
+- Automatically detects supported critical hardware and performance conditions.
+- Preserves up to five minutes of pre-incident history.
+- Captures up to two minutes of recovery data when available.
+- Correlates interruptions with available Windows event information.
+- Supports manual diagnostic snapshots.
+- Displays incident timelines and charts.
+- Exports readable reports, JSON, and CSV.
+- Offers privacy-conscious export options.
+- Provides configurable retention and storage limits.
+
+**Incident Recorder is enabled by default** and operates locally. Reports are never uploaded automatically.
+
+### Alerts & Diagnostics
+
+- Custom monitoring rules and thresholds.
+- Alert severity and cooldown controls.
 - Hardware diagnostics and health reports.
-- Historical performance monitoring and alerts.
-- Process and service management.
+- Persistent alert configurations.
+- Optional desktop notifications.
+
+### Windows System Management
+
+- Process management.
+- Windows service management.
 - Startup application management.
-- Windows power management.
-- Optional advanced hardware sensors.
-- Local and remote monitoring.
-- Dark, Light and System appearances.
+- Power plan controls.
+- Supported system power actions.
 
-## Download
+Some actions require administrator authorization.
 
-**Current version: 1.0.0-beta.3**
+### Remote Monitoring
 
-[Browse SysPulse releases](https://github.com/PulseNexus/SysPulse-Releases/releases)
+Access supported read-only system monitoring information from another device using the optional remote monitoring functionality.
 
-| Package | Description |
-|---|---|
-| Windows Installer | Recommended for most users. |
-| Portable Edition | Run SysPulse without installing it. |
-| Advanced Sensor Helper | Optional add-on for detailed hardware measurements. Requires additional setup. |
+Remote access must be configured by the user.
+
+### Appearance
+
+- Dark Mode.
+- Light Mode.
+- System theme.
+- Modern Minimalism interface.
+- Lavender-accented visual design.
+
+---
+
+## Downloads
+
+| Edition | Description |
+| --- | --- |
+| [Windows Installer](https://github.com/PulseNexus/SysPulse-Releases/releases/download/v1.0.0-beta.4/SysPulse-Setup-1.0.0-beta.4.exe) | Recommended for most users |
+| [Portable Edition](https://github.com/PulseNexus/SysPulse-Releases/releases/download/v1.0.0-beta.4/SysPulse-portable-1.0.0-beta.4.zip) | Run SysPulse without installing |
+| [Advanced Sensor Helper (Beta 3)](https://github.com/PulseNexus/SysPulse-Releases/releases/download/v1.0.0-beta.3/SysPulse-Advanced-Sensor-Helper-1.0.0-beta.3.zip) | Optional advanced hardware monitoring component; not rebuilt or retested for Beta 4 |
+
+For optional advanced sensors, read the [installation guide](ADVANCED-SENSORS.md).
 
 ## System Requirements
 
 - Windows 10 or Windows 11.
-- 64-bit operating system.
-- Microsoft Edge WebView2 Runtime.
-- Microsoft Visual C++ Runtime where required.
+- 64-bit Windows installation.
+- WebView2 runtime where required.
+- Administrator authorization for certain management actions and optional sensors.
 
-Advanced sensor availability depends on your hardware, drivers and system permissions.
+## What's New in Beta 4?
 
-## Public Beta
+- **Fixed:** Deleted default alert rules no longer regenerate.
+- **New:** Automatic Incident Recorder.
+- **New:** Incident history, diagnostic snapshots, and exports.
+- **Improved:** Windows event correlation and incident classification.
+- **Improved:** Custom confirmation dialogs replace browser popups.
+- **Improved:** Historical Monitoring and Insights reliability.
 
-SysPulse is currently undergoing public beta testing.
+[View Beta 4 Release](https://github.com/PulseNexus/SysPulse-Releases/releases/tag/v1.0.0-beta.4)
 
-Some hardware configurations have not yet been physically verified. Unexpected behavior, incorrect measurements and compatibility issues may occur.
+## Known Limitations
 
-The application is currently unsigned, so Windows SmartScreen may display a warning.
+SysPulse is currently in public beta.
 
-## Report a Problem
+- Some hardware configurations have not been physically tested.
+- Advanced sensors depend on compatible hardware and additional components.
+- The installer is unsigned and may trigger Microsoft Defender SmartScreen.
+- Incident recovery depends on previously saved measurements and available Windows events.
+- New measurements cannot be collected while Windows is frozen or powered off.
+- Extended performance and reliability testing remains ongoing.
 
-[Submit a bug report](https://github.com/PulseNexus/SysPulse-Releases/issues/new)
+## Feedback & Bug Reports
 
-When reporting a problem, please include:
+Found a bug, incorrect sensor reading, crash, or interface issue?
 
-- SysPulse version.
-- Windows version.
-- Relevant hardware specifications.
-- Description of the issue.
-- Steps to reproduce it.
-- Screenshots, if applicable.
+[**Report a Bug**](https://github.com/PulseNexus/SysPulse-Releases/issues/new)
 
-Please remove personal information from screenshots and diagnostic reports before submitting them.
+When reporting an issue, include your Windows version, SysPulse version, and relevant details.
 
-## Privacy
+Incident Recorder reports can help with troubleshooting. Review exported diagnostics before sharing them publicly.
 
-SysPulse processes monitoring data locally by default.
+## Licensing
 
-- No required account.
-- No automatic telemetry.
-- No automatic crash reporting.
-- Remote monitoring is optional.
+SysPulse is **proprietary freeware**.
 
-## License
+The application is free to use under the terms of its [LICENSE](LICENSE).
 
-SysPulse is proprietary freeware. It is free to use for personal, educational and commercial purposes under its accompanying software license.
+Third-party components remain subject to their respective licenses.
 
-Third-party components are governed by their respective licenses.
+Source code is not publicly distributed.
 
 ---
 
-**Published by Pulse**
+<div align="center">
 
-**Created and owned by Mest**
+**SysPulse** — Your system. Every detail.
+
+Published by **Pulse**.
+
+Created and owned by **Mest**.
 
 Copyright © 2026 Mest. All rights reserved.
 
-[PulseNexus](https://github.com/PulseNexus)
+</div>
