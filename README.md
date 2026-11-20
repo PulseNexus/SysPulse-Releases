@@ -45,9 +45,9 @@ SysPulse is a free, modern Windows system monitoring and management application 
 
 Advanced sensor availability depends on your hardware, drivers and system permissions.
 
-## Private Beta
+## Public Beta
 
-SysPulse is currently undergoing private beta testing.
+SysPulse is currently undergoing public beta testing.
 
 Some hardware configurations have not yet been physically verified. Unexpected behavior, incorrect measurements and compatibility issues may occur.
 
