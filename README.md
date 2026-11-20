@@ -4,16 +4,18 @@
 
 *Developed by Pulse.*
 
-[![Download for Windows](https://img.shields.io/badge/Download_for_Windows-238636?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/PulseNexus/SysPulse-Releases/releases/download/v1.0.0-beta.3/SysPulse-Setup-1.0.0-beta.3.exe)
 
-[![Portable Edition](https://img.shields.io/badge/Portable_Edition-705AB5?style=for-the-badge)](https://github.com/PulseNexus/SysPulse-Releases/releases/download/v1.0.0-beta.3/SysPulse-portable-1.0.0-beta.3.zip)
+[![Download for Windows](https://img.shields.io/badge/Download_for_Windows-238636?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/PulseNexus/SysPulse-Releases/releases/download/v1.0.0-beta.4/SysPulse-Setup-1.0.0-beta.4.exe)
+
+[![Portable Edition](https://img.shields.io/badge/Portable_Edition-705AB5?style=for-the-badge)](https://github.com/PulseNexus/SysPulse-Releases/releases/download/v1.0.0-beta.4/SysPulse-portable-1.0.0-beta.4.zip)
 [![Advanced Sensors](https://img.shields.io/badge/Advanced_Sensors-30363D?style=for-the-badge)](https://github.com/PulseNexus/SysPulse-Releases/releases/download/v1.0.0-beta.3/SysPulse-Advanced-Sensor-Helper-1.0.0-beta.3.zip)
 
-![Version](https://img.shields.io/badge/Version-1.0.0--beta.3-A69BE0)
+![Version](https://img.shields.io/badge/Version-1.0.0--beta.4-A69BE0)
 ![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11-blue)
 ![License](https://img.shields.io/badge/License-Freeware-green)
 
 [All Releases](https://github.com/PulseNexus/SysPulse-Releases/releases) · [Report a Bug](https://github.com/PulseNexus/SysPulse-Releases/issues) · [Sensor Installation Guide](ADVANCED-SENSORS.md)
+
 
 ---
 
